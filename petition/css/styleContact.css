@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    position: relative;
+    background-image: url(../images/contact1.jpg);
+    font-family: Arial;
+}
+
+.container{
+    min-width: 700px;
+    min-height: 350px;
+    border-radius: 20px;
+    position: relative;
+    transition: 1.5s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.side{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 50px;
+    color: white;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+.content{
+    transform: translateZ(70px) 
+    scale(0.8);
+    line-height: 1.5em;
+}
+
+.content h1{
+    position: relative;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.content h1:before{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    height: 3px;
+    background-color: white;
+    width: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.front{
+    z-index: 2;
+    background-image: url("../images/contact.jpg");
+    background-size: cover;
+    background-size: 100vh;
+    color: white;
+}
+
+.back{
+    background-color: #333;
+    transform: rotateY(180deg);
+    z-index: 0;
+    padding-top: 10px;
+    background-image: url("../images/confont.jpg");
+    background-size: cover;
+}
+
+.container:hover{
+    transform: rotateY(180deg);
+}
+
+.back h1{
+    margin: 0;
+}
+
+form label, form input{
+    display: block;
+}
+
+form input, form textarea{
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid white;
+    padding: 5px;
+    width: 100%;
+    color: white;
+    outline: none;
+}
+
+form label{
+    margin: 15px 0;
+}
+
+form input[type="submit"]{
+    display: block;
+    width: auto;
+    margin: 10px auto;
+    padding: 5px 10px;
+    border: 3px solid white;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.menu{
+    background-color: slateblue;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 100%;
+    /*Pour que la couleur prennent tout les bordures de l'ecran*/
+    height: 132px;
+    /*On augmente la hauteur du menu de 75 pixel*/
+    margin-left: -10px;
+    /*Pour que la couleur prennent tout la bordure de gauche*/
+    top:-10px;
+    text-align: center;
+}
+
+.menu li{
+    list-style: none;
+    /*permet d'enlever les points ou puces qui ce trouvant dans les listes*/
+    display: inline;
+    /*Permet d'afficher le menu en ligne*/
+    
+}
+
+.menu  li a{
+    position: relative;
+    top:27.5px;
+    /*la proprieté  position et top permettent de mettre les text du menu au centre du menu*/
+    /*Cela permet (>) d'aller changer la couleur du text qui est entre les lien dans le menu*/
+    color: white;
+    text-decoration: none;
+    /*Pour enlever la décoration du text*/
+    padding: 70px;
+    /*Cela c'est pour augmenter de l'espace entre les text du menu*/
+    font-size: 20px;
+    /*Pour augmenter la taille du text*/
+    display: inline;
+    transition: all 0.3s background-color;
+}
+
+.menu a:hover{
+    background-color: #005f5d;
+    font-size: 30px;
+}
+
+.menu a.active{
+    background-color: beige;
+    color: #444;
+    cursor: default;
+}
+
+

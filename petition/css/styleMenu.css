@@ -1,0 +1,255 @@
+body{
+    margin: 0;
+    padding: 0;
+}    
+#box1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/menu.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+
+h1{
+    cursor: default;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 90%;
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    display: block;
+    text-align: center;
+
+}
+
+h1 span{
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    -webkit-animation: bounce .3s ease infinite alternate;
+    font-family: Tahoma;
+    font-size: 80px;
+    color: white;
+    text-shadow: 0 1px 0 #ccc,
+                 0 2px 0 #ccc,
+                 0 3px 0 #ccc,
+                 0 4px 0 #ccc,
+                 0 5px 0 #ccc,
+                 0 6px 0 transparent,
+                 0 7px 0 transparent,
+                 0 8px 0 transparent,
+                 0 9px 0 transparent,
+                 0 10px 10px rgba(0,0,0,0.4);
+}
+
+h1 span:nth-child(2){
+    -webkit-animation-delay: .1s;
+}
+h1 span:nth-child(3){
+    -webkit-animation-delay: .2s;
+}
+h1 span:nth-child(4){
+    -webkit-animation-delay: .3s;
+}
+h1 span:nth-child(5){
+    -webkit-animation-delay: .4s;
+}
+h1 span:nth-child(6){
+    -webkit-animation-delay: .5s;
+}
+
+
+@keyframes bounce {
+    100%{
+        top: -10px;
+        text-shadow: 0 1px 0 #ccc,
+                     0 2px 0 #ccc,
+                     0 3px 0 #ccc,
+                     0 4px 0 #ccc,
+                     0 5px 0 #ccc,
+                     0 6px 0 #ccc,
+                     0 7px 0 #ccc,
+                     0 8px 0 #ccc,
+                     0 9px 0 #ccc,
+                     0 50px 25px rgba(0,0,0,0.2);
+    }
+}
+
+.description{
+    font-family:Tahoma;
+    font-weight: bold;
+    font-size: 50px;
+    color: olivedrab;
+    position:absolute;
+    top: 60%;
+    left: 15%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid  white;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+.petition{
+    color: darkorange;
+}
+
+.anim-typewriter{
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter{
+    from{width:0;}
+    to{width:24em;}
+}
+
+@keyframes blinkTextCursor{
+    from{border-right-color: beige;}
+    to{border-right-color:transparent;}
+}
+
+#creatpeti{
+    position: absolute;
+    display: block;
+    margin-left: 25%;
+}
+
+
+#creatpeti img{
+    width: 100px;
+}
+
+
+/* ----------- ARTICLES -----------*/
+
+
+.solo{
+    width:197px;
+    float:left;
+    padding:0 20px;
+    margin-top:35px;
+    font-style:italic;
+
+}
+
+
+
+.solo h2{
+
+    font-family: OpenSansSemibold;
+    padding:0;
+    margin:0 0 10px 0;
+    font-size:25px;
+    color:black;
+    font-style:normal;
+}
+
+.solo a{
+    color: #696969;
+}
+/**********sous menu********/
+.submenu{
+    display: none;
+}
+
+.menuP:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+
+}
+
+.submenu li{
+    border-bottom: 1px solid rosybrown;
+}
+
+.submenu li a{
+    padding: 15px 30px;
+    font-size: 13px;
+    color: #222538;
+    width: 270px;
+}
+
+.submenu li:hover a{
+    color: chocolate;
+    font-weight: bold;
+}
+
+.menuP .submenu li:hover{
+    background-color: rebeccapurple;
+}
+
+.main-footer {
+    background: black;
+    padding: 50px;
+    margin-top: 25%;
+
+    font-family: "Montserrat", sans-serif;
+}
+
+.main-footer span{
+    color: beige;
+    margin-left: 450px;
+}
+
+#username{
+    border: 0px solid transparent;
+    width: 150px;
+    height: 10px;
+    color: beige;
+    text-align: center;
+    background-color: black;
+    margin-left: 83%;
+
+    font-weight: bold;
+}
+
+.sav{
+    border: 1px solid #333;
+    background-color: #2C5115;
+    color: beige;
+    box-shadow: 5px 5px 5px black;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.sav:hover{
+    background-color: rgba(25, 184, 61, 0.9);
+    box-shadow: 0px 5px 0px #0b8b86;
+}
+
+.sa{
+  text-decoration: none;
+
+}
+
+.im:hover{
+    box-shadow: 5px 5px 5px #0b8b86;
+}
+
+.conA{
+    text-decoration: none;
+    color: beige;
+    padding: 3px;
+}
+
+.conA:visited{
+    color: beige;
+}
+
+.conA:hover{
+    color: darkred;
+}
+
+

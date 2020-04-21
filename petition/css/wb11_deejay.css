@@ -1,0 +1,375 @@
+/* a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+} */
+#wb_Carousel1
+{
+
+   background-color: transparent;
+   background-image: none;
+
+}
+#wb_Carousel1
+{
+   display: block;
+   float: left;
+   top: 0 !important;
+}
+#Carousel1 .frame
+{
+   width: 400px;
+   display: inline-block;
+   float: left;
+   height: 338px;
+}
+#wb_Carousel1 .pagination
+{
+   bottom: 0;
+   left: 0;
+   position: absolute;
+   text-align: center;
+   vertical-align: middle;
+   width: 100%;
+   z-index: 998;
+}
+#wb_Carousel1 .pagination img
+{
+   border-style: none;
+   padding: 10px 10px 10px 10px;
+}
+#Carousel1 .frame-1
+{
+   background-color: transparent;
+   background-image: url(../images/imgpetition/bask.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 100% 100%;
+}
+#Carousel1 .frame-2
+{
+   background-color: transparent;
+   background-image: url(../images/imgpetition/572px-Upright_urban_bicyclist.svg.png);
+   background-repeat: no-repeat;
+   background-position: left center;
+   background-size: 100% 100%;
+}
+#Carousel1 .frame-3
+{
+   background-color: transparent;
+   background-image: url(../images/imgpetition/petition-img-27130-fr.jpeg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 100% 100%;
+}
+#Carousel1 .frame-4
+{
+   background-color: transparent;
+   background-image: url(../images/imgpetition/petition-img-46862-fr.jpeg);
+   background-repeat: no-repeat;
+   background-position: left center;
+   background-size: 100% 100%;
+}
+#Carousel1 .frame-5
+{
+   background-color: transparent;
+   background-image: url(../images/imgpetition/petition-img-49550-fr.jpeg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 100% 100%;
+}
+#Carousel1 .frame-6
+{
+   background-color: transparent;
+   background-image: url(../images/imgpetition/petition-img-49742-fr.jpeg);
+   background-repeat: repeat;
+   background-position: left center;
+   background-size: 100% 100%;
+}
+#wb_LayoutGrid5
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px #CCCCCC solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#LayoutGrid5
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid5 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid5 .col-1
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid5 .col-1
+{
+   float: left;
+}
+#LayoutGrid5 .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid5:before,
+#LayoutGrid5:after,
+#LayoutGrid5 .row:before,
+#LayoutGrid5 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid5:after,
+#LayoutGrid5 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid5 .col-1
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_Heading1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #FFFFFF solid;
+   border-radius: 20px;
+   padding: 0px 0px 0px 0px;
+}
+#Heading1
+{
+   color: #F0F8FF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 32px;
+   margin: 0;
+   text-align: center;
+}
+#wb_Heading2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #FFFFFF solid;
+   padding: 0px 0px 0px 0px;
+}
+#Heading2
+{
+   color: #F0F8FF;
+   font-family: Tahoma;
+   font-weight: bold;
+   font-size: 32px;
+   margin: 0;
+   text-align: center;
+}
+#wb_Heading3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #FFFFFF solid;
+   padding: 0px 0px 0px 0px;
+}
+#Heading3
+{
+   color: #DCDCDC;
+   font-family: Tahoma;
+   font-weight: bold;
+   font-size: 32px;
+   margin: 0;
+   text-align: center;
+}
+#wb_Heading4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #FFFFFF solid;
+   border-radius: 20px;
+   padding: 0px 0px 0px 0px;
+}
+#Heading4
+{
+   color: #F0F8FF;
+   font-family: Tahoma;
+   font-weight: bold;
+   font-size: 32px;
+   margin: 0;
+   text-align: center;
+}
+#wb_Heading5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #FFFFFF solid;
+   border-radius: 20px;
+   padding: 0px 0px 0px 0px;
+}
+#Heading5
+{
+   color: #F0F8FF;
+   font-family: Tahoma;
+   font-weight: bold;
+   font-size: 32px;
+   margin: 0;
+   text-align: center;
+}
+#wb_Heading6
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #FFFFFF solid;
+   border-radius: 20px;
+   padding: 0px 0px 0px 0px;
+}
+#Heading6
+{
+   color: #F0F8FF;
+   font-family: Tahoma;
+   font-weight: bold;
+   font-size: 32px;
+   margin: 0;
+   text-align: center;
+}
+#Button1
+{
+   border: 1px #B22222 solid;
+   border-radius: 15px;
+   background-color: #B22222;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Tahoma;
+   font-weight: normal;
+   font-size: 13px;
+}
+#Button2
+{
+   border: 1px #B22222 solid;
+   border-radius: 15px;
+   background-color: #B22222;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Tahoma;
+   font-weight: normal;
+   font-size: 13px;
+}
+#Button3
+{
+   border: 1px #B22222 solid;
+   border-radius: 15px;
+   background-color: #B22222;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Tahoma;
+   font-weight: normal;
+   font-size: 13px;
+}
+#Button4
+{
+   border: 1px #B22222 solid;
+   border-radius: 15px;
+   background-color: #B22222;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Tahoma;
+   font-weight: normal;
+   font-size: 13px;
+}
+#Button5
+{
+   border: 1px #B22222 solid;
+   border-radius: 15px;
+   background-color: #B22222;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Tahoma;
+   font-weight: normal;
+   font-size: 13px;
+}
+#Button6
+{
+   border: 1px #B22222 solid;
+   border-radius: 15px;
+   background-color: #B22222;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Tahoma;
+   font-weight: normal;
+   font-size: 13px;
+}
+#wb_PageHeader
+{
+   height: 50px;
+   -webkit-transition: all 500ms linear;
+   -moz-transition: all 500ms linear;
+   -ms-transition: all 500ms linear;
+   transition: all 500ms linear;   
+   z-index: 9999;
+}
+#wb_PageHeader.affix
+{
+  position: fixed !important;
+   float: none !important;
+  -webkit-transition: all 500ms linear;
+   -moz-transition: all 500ms linear;
+   transition: all 500ms linear;   
+   opacity: 0.8;
+}
+#RollOver1 a span,
+#RollOver2 a span,
+#RollOver3 a span,
+#RollOver4 a span
+{
+   -webkit-transition: all 500ms linear;
+   -moz-transition: all 500ms linear;
+   transition: all 500ms linear;      
+   z-index: 0;   
+}
+#RollOver1 a:hover span,
+#RollOver2 a:hover span,
+#RollOver3 a:hover span,
+#RollOver4 a:hover span
+{
+   visibility: visible;
+   opacity: 0.5;
+}

@@ -1,0 +1,12 @@
+@keyframes float { 
+    from { transform: translate(0, 0px); }
+    to   { transform: translate(0, 8px); } 
+  }
+  @keyframes float-arm { 
+    from { transform: translate(-1px, 0px); }
+    to   { transform: translate(1px, 4px); } 
+  }
+  #ghost-body { animation: float 2s linear alternate infinite; }
+  .ghost-arm { animation: float-arm 3s linear alternate infinite; }
+  .pupil, #mouth, .ghost-arm { transition: all 0.25s; }
+
